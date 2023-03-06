@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <script defer src="./particles/paricles.js"></script>
+        <script defer src="./particles/demo/demo/app.js"></script>
+        <link rel="stylesheet" href="style/about.css">
+        <link rel="stylesheet" href="style/contact.css">
+        <link rel="stylesheet" href="style/home.css">
+        <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="style/projects.css">
+        <title>SHAURYA VERMA</title>
+    </head>
+    <body>
+        <nav id="navbar">
+            <div class="logo">
+                <a href="#">S H</a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+                <button>resume</button>
+            </div>
+        </nav>
+        <section class="main-text">
+            <div class="text">
+                <span>Hi my name is</span>
+                <h1>Shaurya Verma</h1>
+                <h1>I Am A Web And App Developer </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet tenetur, incidunt, nisi officiis provident quam illum quo quod pariatur repellat repudiandae neque culpa voluptates, animi dicta facere eos nemo odit!</p>
+                <a href="#contact"><button>Let's Connect</button></a>
+            </div>
+            <div id="particles-js"></div>
+        </section>
+        <div id="mail">
+            <div class="vertical-line"></div>
+            <div id="mail-id"><a href="mailto:Shaurya8688@gmail.com">Shaurya8688@gmail.com</a></div>
+        </div>
+        
+        <!-- about section  -->
+        <section id="about">
+            <div class="about-text">
+                <h1>About Me</h1>
+                <h3 class="type"></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem minus a fuga, labore deleniti temporibus pariatur rerum autem corporis esse id? Culpa cumque quaerat fugiat omnis accusamus odit unde expedita!</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem minus a fuga, labore deleniti temporibus pariatur rerum autem corporis esse id? Culpa cumque quaerat fugiat omnis accusamus odit unde expedita!</p>
+            </div>
+            <div class="about-right">
+                <img src="./media/image/WhatsApp Image 2023-03-05 at 3.18.35 PM.jpeg">
+                <div class="overlay"></div>
+                <div class="square"></div>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="container">
+                <div class="card" style="--i: -1">
+                    <span>projects</span>
+                    <div class="content" style="--j: 1">
+                        <h2>Online Meet App</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis beatae iure sequi voluptatum iste culpa eveniet dolores, repellat sint tenetur! Aspernatur deserunt rem placeat ipsam corporis maxime voluptas sint</p>
+                        <a href="" target="_blank"><img src="" alt=""></a>
+                    </div>
+                </div>
+                <div class="card" style="--i: 0">
+                    <div class="content" style="--j: 2">
+                        <h2>College Website</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis beatae iure sequi voluptatum iste culpa eveniet dolores, repellat sint tenetur! Aspernatur deserunt rem placeat ipsam corporis maxime voluptas sint</p>
+                        <a href="" target="_blank"><img src="" alt=""></a>
+                    </div>
+                </div>
+                <div class="card" style="--i: 1">
+                    <div class="content" style="--j: 3">
+                        <h2>portfolio</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis beatae iure sequi voluptatum iste culpa eveniet dolores, repellat sint tenetur! Aspernatur deserunt rem placeat ipsam corporis maxime voluptas sint</p>
+                        <a href="" target="_blank"><img src="" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact section  -->
+        <section id="contact">
+            <div class="contact-text">
+                <h1>Get In Touch</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam alias delectus illo asperiores unde non? Nam provident mollitia itaque architecto </p>
+                <a href="mailto:shaurya8688@gmail.com"><button>Email Me</button></a>
+            </div>
+            <div class="form-box">
+                <div class="form">
+                    <div class="name">
+                        <input type="text" id="name" class="form__input" autocomplete="off" placeholder=" ">
+                        <label for="name" class="form__label">Name</label>
+                    </div>
+                </div>
+                <div class="form">
+                    <div class="email">
+                        <input type="email" id="email" class="form__input" autocomplete="off" placeholder=" ">
+                        <label for="email" class="form__label">Email</label>
+                    </div>
+                </div>
+                <textarea name="message" id="message" cols="27" rows="10" placeholder="Say Hello..."></textarea>
+                <input type="submit">
+            </div>
+            <div class="socials">
+                <a href=""><img src="./media/svg/instagram-svgrepo-com.svg" alt="instagram"> </a>
+                <a href=""><img src="./media/svg/linkedin-svgrepo-com.svg" alt="linkedin"></a>
+                <a href=""><img src="./media/svg/github-svgrepo-com.svg" alt="github"></a>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <span>Developed By<a href="mailto:shaurya8688@gmail.com">&nbspShaurya Verma</a></span>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+             var typed=new Typed(".type",{
+                strings:["I am Shaurya Verma","I Am a Web And App Developer"],
+                typeSpeed:100,
+                backSpeed:100,
+                loop:true
+             })
+        </script>
+        <script src="./scripts/main.js"></script>
+        <script src="./Particles/"></script>
+        <script src="./scripts/main.js"></script>
+    </body>
+    </html>
